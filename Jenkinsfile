@@ -11,11 +11,6 @@ pipeline {
       steps {
         sh 'echo "Test Stage Successful"'
         
-        post {
-          always {
-            junit 'target/surefire-reports/*.xml'
-          }
-        }
       }
     }
     stage('Deploy') {
