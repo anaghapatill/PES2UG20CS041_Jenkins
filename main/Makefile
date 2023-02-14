@@ -1,2 +1,2 @@
-hello_exec: hello.cpp
-	g++ hello.cpp -o hello_exec
+pipeline_exec: pipeline.cpp
+	g++ pipeline.cpp -o pipeline_exec
