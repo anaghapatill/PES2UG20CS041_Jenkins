@@ -7,9 +7,9 @@ pipeline {
         
       }
     }
-    stage(Test'){
+    stage('Test'){
       steps {
-        sh 'echo "Test Stage Successful"'
+        sh 'echo Test Stage Successful"'
         
       }
     }
