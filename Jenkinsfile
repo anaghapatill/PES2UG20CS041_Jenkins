@@ -23,7 +23,7 @@ pipeline {
             sh 'echo "Deployment Successful"'
             
           }
-     }
+    }
   } 
   post {
     failure {
