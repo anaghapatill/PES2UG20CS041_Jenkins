@@ -18,7 +18,7 @@ pipeline {
         }
       }
     }
-    stage('Deploy) {
+    stage('Deploy') {
           steps {
             sh 'mvn deploy'
             echo 'Deployment Successful'
