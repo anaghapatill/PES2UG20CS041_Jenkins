@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Test'){
       steps {
-        sh  'g++ pipeline.cpp'
+        sh 'g++ pipeline.cpp'
         sh 'echo "Test Stage Successful"'
         
       }
